@@ -1,0 +1,199 @@
+header {
+    height: 3cm;
+}
+
+h1 {
+    font-family: 'Aboreto',cursive;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-around;
+}
+.nav_button {
+    font-size: larger;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainpage {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.image {
+    display: flex;
+    flex: 2;
+    object-fit: contain;
+}
+
+.rightside {
+    flex: 2;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text {
+    font-size: x-large;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    align-content: center;
+}
+
+.text_title {
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.click {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border: none;
+}
+
+.click:hover {
+    background-color: rgb(194, 146, 162);
+    transition: 0.8;
+}
+
+#about {
+    background-color:rgb(235, 231, 225);
+    margin-top: 50px;
+    align-items: center;
+}
+
+.second_title {
+    display: flex;
+    font-size: x-large;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.abouttext {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: x-large;
+}
+
+.shop {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border: none;
+}
+
+.shop_button {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+#products {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.fragrance {
+    display: flex;
+    margin-left: 50px;
+    font-size: 16pt;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    justify-content:left;
+}
+
+.profile_section {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.add_button {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.add {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    padding: 4px 25px;
+    text-decoration: none;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border: none;
+}
+
+.perfume_profile {
+    background-color: rgb(235, 231, 225);
+}
+
+.per_name {
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.intro {
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-wrap: wrap;
+}
+
+#ending {
+    background-color: rgb(235, 217, 220);
+    margin-top: 50px;
+    align-items: center;
+}
+
+.ending_words {
+    display: flex;
+    font-size: 20pt;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    justify-content: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pretty_words {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: left;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: x-large;
+}
+
+.outro {
+    display: flex;
+    flex-wrap: wrap;
+}
