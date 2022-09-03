@@ -25,6 +25,10 @@ a {
     color: black;
 }
 
+nav select {
+    display: none;
+}
+
 #mainpage {
     display: flex;
     margin-left: 60px;
@@ -151,9 +155,9 @@ a {
 
 .profile_section {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    justify-content: space-between;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    justify-content: space-around;
 }
 
 .add_button {
@@ -220,4 +224,28 @@ a {
 .outro {
     display: flex;
     flex-wrap: wrap;
+}
+
+.white {
+    color: white;
+}
+
+@media (max-width: 768px ){
+    .profile_section {
+        flex-wrap: wrap;
+    }
+    nav select {
+        background-color: rgb(234, 213, 220);
+        text-decoration: none;
+        text-align: center;
+        font-size: larger;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        border-radius: 5px;
+        width: 200px;
+        display: inline;
+
+    }
+    .nav_button {
+        display: none;
+    }
 }

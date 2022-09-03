@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox Practice</title>
+    <script defer src="./index.js"></script>
     <link rel="stylesheet" href="main.css"></link>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +19,28 @@
         </div>
         <nav id="categories">
             <div class="nav_button">
-                <a href="#">Shop All</a>
+                <a class="shopAllButton" href="#">Shop All</a>
             </div>
             <div class="nav_button">
-                <a href="#">Bestsellers</a>
+                <a class="bestsellerButton" href="#">Bestsellers</a>
             </div>
              <div class="nav_button">
-                 <a href="#">Skincare</a>
+                 <a class="skincareButton" href="#">Skincare</a>
             </div>
             <div class="nav_button">
-                <a href="#">Fragrance</a>
+                <a class="fragranceButton" href="#">Fragrance</a>
             </div>
             <div class="nav_button">
-                <a href="#">Contact Us</a>
+                <a class="contactButton" href="#">Contact Us</a>
             </div>
+            <select class="mobile-menu">
+                <option  disabled selected>MENU</option>
+                <option  value="dropdowns">Shop All</option>
+                <option  value="moBest">Bestsellers</option>
+                <option  value="moSkin">Skincare</option>
+                <option  value="moFrag">Fragrance</option>
+                <option  value="dropdowns">Contact Us</option>
+            </select>
         </nav>
     </header>
     <section id="mainpage">
@@ -50,7 +59,7 @@
                 </p>
             </div>
             <div class="button">
-                <button type="button" class="click">Click to Send Help!</button>
+                <button type="button" class="click">Show me Something else</button>
 </div>
         </div>
     </section>
@@ -75,7 +84,7 @@
         </div>
         <div class="profile_section">
             <div class="perfume_profile">
-                <img src="https://i.postimg.cc/cJ3YRPTh/Screen-Shot-2022-08-26-at-8-37-57-PM.png">
+                <img class = "firstprod" src="https://i.postimg.cc/cJ3YRPTh/Screen-Shot-2022-08-26-at-8-37-57-PM.png">
                 <h3 class="per_name">Josie</h3>
                 <p class="intro">A decadent warm vanilla glacé.</p>
                 <div class="add_button">
@@ -84,7 +93,7 @@
                 </div>
             </div>
             <div class="perfume_profile">
-                <img src="https://i.postimg.cc/NMwXpbzc/Screen-Shot-2022-08-26-at-8-38-07-PM.png">
+                <img class="secondprod" src="https://i.postimg.cc/NMwXpbzc/Screen-Shot-2022-08-26-at-8-38-07-PM.png">
                 <h3 class="per_name">Luna</h3>
                 <p class="intro">Cloud of Vanilla with peony.</p>
                 <div class="add_button">
@@ -93,7 +102,7 @@
                 </div>
             </div>
             <div class="perfume_profile">
-                <img src="https://i.postimg.cc/MH6Q8Hw3/Screen-Shot-2022-08-26-at-8-39-03-PM.png">
+                <img class="thirdprod" src="https://i.postimg.cc/MH6Q8Hw3/Screen-Shot-2022-08-26-at-8-39-03-PM.png">
                 <h3 class="per_name">Willow</h3>
                 <p class="intro">Earthy bayberry and fir needle.</p>
                 <div class="add_button">
@@ -102,7 +111,7 @@
                 </div>
             </div>
             <div class="perfume_profile">
-                <img src="https://i.postimg.cc/RFQH8fkn/Screen-Shot-2022-08-26-at-8-39-08-PM.png">
+                <img class="fourthprod" src="https://i.postimg.cc/RFQH8fkn/Screen-Shot-2022-08-26-at-8-39-08-PM.png">
                 <h3 class="per_name">Katye</h3>
                 <p class="intro">Fresh salt air collides with juicy orange.</p>
                 <div class="add_button">
