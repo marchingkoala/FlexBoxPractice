@@ -86,7 +86,7 @@ const letter = document.getElementsByClassName("text_main")[0];
 const textTitle = document.getElementsByClassName("text_title")[0]
 const secondbody = document.getElementById("about");
 const ending = document.getElementById("ending");
-
+const darkintro = document.getElementsByClassName("intro")[0]
 
 
 
@@ -107,7 +107,7 @@ if ( target.className === 'click'){
     background.style.backgroundColor = 'black';
     letter.style.color = 'white';
     letter.innerHTML =
-      'Do not Send help because this is working out very well. Darkness everywhere, that is what I want. Come in. I am sure our shop carries something of your desier. For love potions, please contact us. Please keep in mind that We do not take working currency for love potions';
+      'Do not Send help because this is working out very well. Darkness everywhere, that is what I want. Come in. I am sure our shop carries something of your desire. For love potions, please contact us. Please keep in mind that We do not take working currency for love potions';
     textTitle.style.color = 'white';
     textTitle.innerHTML = 'Welcome to the Dark Side'
     changebutton.style.color = 'white';
@@ -129,8 +129,23 @@ if ( target.className === 'click'){
     document.getElementsByClassName("per_name")[1].innerHTML = "Wild Nymph"
     document.getElementsByClassName("per_name")[2].innerHTML = "Water Fairy"
     document.getElementsByClassName("per_name")[3].innerHTML = "Mana Potion"
-    document.getElementsByClassName("per_name").style.color = "white";
     ending.style.backgroundColor = "dimgray";
     dropdown.style.backgroundColor = "black";
+    document.getElementsByClassName(
+      "perfume_profile"
+    )[0].style.backgroundColor = "dimgrey";
+    document.getElementsByClassName(
+      "perfume_profile"
+    )[1].style.backgroundColor = "dimgrey";
+    document.getElementsByClassName(
+      "perfume_profile"
+    )[2].style.backgroundColor = "dimgrey";
+    document.getElementsByClassName(
+      "perfume_profile"
+    )[3].style.backgroundColor = "dimgrey";
+    document.getElementsByClassName("intro")[0].innerHTML = "To see beyond the veil"
+    document.getElementsByClassName("intro")[1].innerHTML ="To brighten your lab"
+    document.getElementsByClassName("intro")[2].innerHTML = "Wild caught. Her tears turn into pearls"
+    document.getElementsByClassName("intro")[3].innerHTML = "To restore your soul"
 }
 }

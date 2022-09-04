@@ -185,6 +185,7 @@ nav select {
     justify-content: left;
     margin-left: 5px;
     margin-right: 5px;
+    color: black;
 }
 .intro {
     display: flex;
@@ -194,6 +195,7 @@ nav select {
     flex-wrap: wrap;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 16pt;
+    color: black;
 }
 
 #ending {
